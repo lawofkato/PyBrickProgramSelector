@@ -6,6 +6,7 @@ from pybricks.tools import wait, StopWatch, hub_menu
 
 hub = PrimeHub()
 
+#This menu allows you to pick a program, similar to the SPike Prime App
 selected = hub_menu("1", "2", "3")
 
 if selected == "1":
